@@ -53,9 +53,9 @@ module "stage" {
   db_username                   = "root"
   db_password                   = "It12345!"
   db_parameter_group_name       = "default.mysql8.0"
-  db_avazone                    = "ap-northeast-2a"
+  db_avazone                    = "ap-northeast-1a"
   db_snapshot                   = true
-  ami                           = "ami-0e4a9ad2eb120e054"
+  ami                           = "ami-02d36247c5bc58c23"
 
 
 
